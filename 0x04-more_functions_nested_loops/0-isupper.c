@@ -2,14 +2,14 @@
 
 /**
  * _isupper - uppercase letter
- * @c: char to check
- *
+ * @c: char to be checked 
  * Return: 1 or 0
  */
+
 int _isupper(int c)
 {
-while (c => 'A' && c <= 'Z')
+if (c >= 'A' && c <= 'Z')
 return (1);
-while
+else
 return (0);
 }
